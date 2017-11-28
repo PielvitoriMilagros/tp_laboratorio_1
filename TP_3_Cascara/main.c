@@ -62,7 +62,7 @@ int main()
             system("pause");
             break;
         }
-        case 5:
+        default:
         {
             seguir = 'n';
             break;

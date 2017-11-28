@@ -27,3 +27,17 @@
 	<ctype.h>
 	"funciones.h"
 
+1511905623 source:c:\users\nicolas\desktop\tp_3_cascara\main.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	"funciones.h"
+
+1511906200 c:\users\nicolas\desktop\tp_3_cascara\funciones.h
+
+1511906560 source:c:\users\nicolas\desktop\tp_3_cascara\funciones.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	"funciones.h"
+

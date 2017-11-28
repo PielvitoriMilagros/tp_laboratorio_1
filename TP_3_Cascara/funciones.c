@@ -36,7 +36,7 @@ int agregarPelicula(EMovie *lista)
         if(strcmp(titAux,lista->titulo)==0)
         {
             printf("La pelicula ya existe\n");
-            return main();
+            return 0;
         }
     }
     strcpy(lista->titulo,titAux);
@@ -316,8 +316,9 @@ void iniciarFileBinario(char *nombre, char *modo)
     if((pArch=fopen(nombre, modo))==NULL)
     {
         perror("bin.dat");
-        printf("\nEl archivo no puede ser abierto");
-        exit(1);
+        printf("\nEl archivo no puede ser abierto\n");
+        system("pause");
+        return main();
     }
 }
 
